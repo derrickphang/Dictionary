@@ -1,4 +1,4 @@
-# OnlineDict
+# Dictionary
 Created with CodeSandbox
 
 Made with React
