@@ -1,0 +1,103 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #000;
+}
+
+* {
+  text-align: center;
+  color: #000;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  padding: 0;
+  margin: 10px 0;
+}
+
+.heading {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.enter {
+  align-self: center;
+  padding: 0;
+  margin: 0;
+}
+
+.inputText {
+  padding: 0;
+  height: 30px;
+  align-self: center;
+  margin: 0;
+  border: 1px solid black;
+}
+
+.wordHeading {
+  text-align: center;
+  /* padding-left: 20px; */
+  margin: 0 0 10px;
+  color: #fff;
+}
+
+.container {
+  /* padding-left: 50px; */
+  margin: 0;
+  /* width: 75%; */
+  display: grid;
+  justify-content: center;
+}
+
+.wordEach {
+  background-color: #1864ab;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  /* width: 50%; */
+  display: grid;
+}
+
+.word {
+  background-color: #e7f5ff;
+  padding: 20px 50px;
+  margin-bottom: 30px;
+  display: grid;
+  /* width: 60%; */
+  justify-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 1.25rem 1.875rem 0px rgba(0, 0, 0, 0.3);
+}
+
+.word h3 {
+  justify-self: start;
+}
+
+.word ol {
+  justify-self: start;
+}
+
+ol {
+  display: grid;
+  padding: 0 0 0 30px;
+  margin: 0;
+}
+
+.listItem {
+  justify-self: start;
+}
+
+.btn {
+  padding: 3px;
+}
